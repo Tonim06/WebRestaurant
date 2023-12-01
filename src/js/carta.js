@@ -8,15 +8,15 @@ const dataTapas = [
         nombre: "Jamón ibérico de bellota Juan Manuel D.O. Guijuelo (80g)", 
         precio: "26.00€" },
     { 
-        url: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg", 
+        url: "/src/img/tapas/cecinaVaca.jpg", 
         nombre: "Cecina de vaca, alcachofas confitadas y añejo de Barros", 
         precio: "19.50€" },
     { 
-        url: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg", 
+        url: "/src/img/tapas/ostrasRegal.jpg", 
         nombre: "Ostra Regal Special nº2 al natural (u.)", 
         precio: "4.85€" },
     { 
-        url: "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg", 
+        url: "/src/img/tapas/ostrasGazpacho.jpg", 
         nombre: "Ostra con gazpacho de cerezas y Pedro Ximénez", 
         precio: "6.00€" },
 ];
