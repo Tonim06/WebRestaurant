@@ -19,6 +19,18 @@ const dataTapas = [
         url: "/src/img/tapas/ostrasGazpacho.jpg", 
         nombre: "Ostra con gazpacho de cerezas y Pedro Ximénez", 
         precio: "6.00€" },
+    { 
+        url: "/src/img/tapas/ostrasGambasRojas.jpg", 
+        nombre: "Ostra a sa brasa amb gamba vermella a l’all (u.)", 
+        precio: "7.00€" },
+    { 
+        url: "/src/img/tapas/sardinasEscabeche.jpg", 
+        nombre: "Sardines marinades en escabetx de pastanaga i mango", 
+        precio: "18.00€" },
+    { 
+        url: "/src/img/tapas/carpaccioGamba.jpg", 
+        nombre: "Carpaccio de gamba vermella, emulsió de caps, fenoll marí i all", 
+        precio: "23.00€" },
 ];
 
 tapas_button.addEventListener('click', () => {
