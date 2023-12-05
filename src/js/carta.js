@@ -21,16 +21,28 @@ const dataTapas = [
         precio: "6.00€" },
     { 
         url: "/src/img/tapas/ostrasGambasRojas.jpg", 
-        nombre: "Ostra a sa brasa amb gamba vermella a l’all (u.)", 
+        nombre: "Ostra a la brasa con gamba roja al ajillo", 
         precio: "7.00€" },
     { 
         url: "/src/img/tapas/sardinasEscabeche.jpg", 
-        nombre: "Sardines marinades en escabetx de pastanaga i mango", 
+        nombre: "Sardinas marinadas en escabeche de zanahoria y mango", 
         precio: "18.00€" },
     { 
         url: "/src/img/tapas/carpaccioGamba.jpg", 
-        nombre: "Carpaccio de gamba vermella, emulsió de caps, fenoll marí i all", 
+        nombre: "Carpaccio de gambas, emulsion de cabezas, hinojo marino y ajo", 
         precio: "23.00€" },
+    { 
+        url: "/src/img/tapas/tartarAtun.jpg", 
+        nombre: "Tártar Mediterráneo de atún Balfegó", 
+        precio: "24.00€" },
+    { 
+        url: "/src/img/tapas/tartarMostaza.jpg", 
+        nombre: "Steak tártar, cremoso de mostaza y mahonés", 
+        precio: "21.00€" },
+    { 
+        url: "/src/img/tapas/ensaladaTomates.jpg", 
+        nombre: "Ensalada de tomates con encurtidos caseros, algas y cítricos", 
+        precio: "16.50€" },
 ];
 
 tapas_button.addEventListener('click', () => {
