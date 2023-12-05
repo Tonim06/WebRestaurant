@@ -43,6 +43,50 @@ const dataTapas = [
         url: "/src/img/tapas/ensaladaTomates.jpg", 
         nombre: "Ensalada de tomates con encurtidos caseros, algas y cítricos", 
         precio: "16.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Burrata artesana con berenjena glaseada y pesto de tomate", 
+        precio: "21.00€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Espárragos verdes a la brasa con mayonesa de aceitunas y romesco", 
+        precio: "16.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Las Bravas de La Bodeguilla", 
+        precio: "15.00€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Huevo escalfado con foie y trufa fresca", 
+        precio: "18.00€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Croquetas melosas de jamón de Guijuelo (6u.)", 
+        precio: "16.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Calamares fritos con alioli de pimientos de Padrón", 
+        precio: "21.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Zamburiñas con picadillo y vinagre de Chardonnay (6u.)", 
+        precio: "19.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Fideuà de carabinero y alioli de sus corales", 
+        precio: "26.00€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Pulpo asado con huevo, papada ibérica y patata al ajo", 
+        precio: "26.50€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Canelón de pollo campero, salsa de trompetas y manzana", 
+        precio: "19.00€" },
+    { 
+        url: "/src/img/tapas/jamon.jpg", 
+        nombre: "Pluma ibérica a la brasa, puerro ahumado, mostaza y pistachos", 
+        precio: "28.50€" },
 ];
 
 tapas_button.addEventListener('click', () => {
