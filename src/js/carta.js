@@ -2,94 +2,8 @@ const tapas_button = document.querySelector('#tapas-button');
 const tapas_container = document.querySelector('#tapas-container');
 const tapas = document.querySelector('#tapas');
 
-const dataTapas = [
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Jamón ibérico de bellota Juan Manuel D.O. Guijuelo (80g)", 
-        precio: "26.00€" },
-    { 
-        url: "/src/img/tapas/cecinaVaca.jpg", 
-        nombre: "Cecina de vaca, alcachofas confitadas y añejo de Barros", 
-        precio: "19.50€" },
-    { 
-        url: "/src/img/tapas/ostrasRegal.jpg", 
-        nombre: "Ostra Regal Special nº2 al natural (u.)", 
-        precio: "4.85€" },
-    { 
-        url: "/src/img/tapas/ostrasGazpacho.jpg", 
-        nombre: "Ostra con gazpacho de cerezas y Pedro Ximénez", 
-        precio: "6.00€" },
-    { 
-        url: "/src/img/tapas/ostrasGambasRojas.jpg", 
-        nombre: "Ostra a la brasa con gamba roja al ajillo", 
-        precio: "7.00€" },
-    { 
-        url: "/src/img/tapas/sardinasEscabeche.jpg", 
-        nombre: "Sardinas marinadas en escabeche de zanahoria y mango", 
-        precio: "18.00€" },
-    { 
-        url: "/src/img/tapas/carpaccioGamba.jpg", 
-        nombre: "Carpaccio de gambas, emulsion de cabezas, hinojo marino y ajo", 
-        precio: "23.00€" },
-    { 
-        url: "/src/img/tapas/tartarAtun.jpg", 
-        nombre: "Tártar Mediterráneo de atún Balfegó", 
-        precio: "24.00€" },
-    { 
-        url: "/src/img/tapas/tartarMostaza.jpg", 
-        nombre: "Steak tártar, cremoso de mostaza y mahonés", 
-        precio: "21.00€" },
-    { 
-        url: "/src/img/tapas/ensaladaTomates.jpg", 
-        nombre: "Ensalada de tomates con encurtidos caseros, algas y cítricos", 
-        precio: "16.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Burrata artesana con berenjena glaseada y pesto de tomate", 
-        precio: "21.00€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Espárragos verdes a la brasa con mayonesa de aceitunas y romesco", 
-        precio: "16.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Las Bravas de La Bodeguilla", 
-        precio: "15.00€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Huevo escalfado con foie y trufa fresca", 
-        precio: "18.00€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Croquetas melosas de jamón de Guijuelo (6u.)", 
-        precio: "16.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Calamares fritos con alioli de pimientos de Padrón", 
-        precio: "21.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Zamburiñas con picadillo y vinagre de Chardonnay (6u.)", 
-        precio: "19.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Fideuà de carabinero y alioli de sus corales", 
-        precio: "26.00€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Pulpo asado con huevo, papada ibérica y patata al ajo", 
-        precio: "26.50€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Canelón de pollo campero, salsa de trompetas y manzana", 
-        precio: "19.00€" },
-    { 
-        url: "/src/img/tapas/jamon.jpg", 
-        nombre: "Pluma ibérica a la brasa, puerro ahumado, mostaza y pistachos", 
-        precio: "28.50€" },
-];
 
-tapas_button.addEventListener('click', () => {
+tapas_button.addEventListener('click', async () => {
     const arrow = tapas_button.querySelector('i');
     tapas_container.classList.toggle('hidden');
     tapas_button.classList.toggle('text-white');
@@ -97,9 +11,16 @@ tapas_button.addEventListener('click', () => {
     arrow.classList.toggle('fa-arrow-up');
 
     if (tapas.innerHTML == "") {
-        for (const tapa of dataTapas) {
-            let htmlProducto = generarHtmlProducto(tapa.url, tapa.nombre, tapa.precio);
-            tapas.innerHTML += htmlProducto;
+        try {
+            const response = await fetch('/src/json/dataTapas.JSON');
+            const dataTapas = await response.json();
+
+            for (const tapa of dataTapas) {
+                let htmlProducto = generarHtmlProducto(tapa.url, tapa.nombre, tapa.precio);
+                tapas.innerHTML += htmlProducto;
+            }
+        } catch (error) {
+            console.error('Error fetching or parsing JSON:', error);
         }
     }
 })
