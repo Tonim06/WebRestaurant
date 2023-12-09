@@ -7,7 +7,7 @@ tapas_button.addEventListener('click', async () => {
     const arrow = tapas_button.querySelector('i');
     tapas_container.classList.toggle('hidden');
     tapas_button.classList.toggle('text-white');
-    tapas_button.classList.toggle('bg-red-700');
+    tapas_button.classList.toggle('bg-red-900');
     arrow.classList.toggle('fa-arrow-up');
 
     if (tapas.innerHTML == "") {
@@ -34,7 +34,7 @@ function generarHtmlProducto(url, nombre, precio) {
                                     class="h-full w-full object-cover object-center group-hover:opacity-75">
                 </div>
                 <h3 class="mt-4 text-sm text-gray-700">${nombre}</h3>
-                <p class="mt-1 text-lg font-medium text-gray-900">${precio}</p>
+                <p class="mt-1 text-lg font-medium text-gray-900">${precio.toFixed(2)}€</p>
             </div>`;
 
     return platoHTML;

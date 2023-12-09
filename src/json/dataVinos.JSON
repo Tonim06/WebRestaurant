@@ -1,0 +1,182 @@
+{
+    "Espumosos": [
+        {
+            "nombre": "Agustí Torelló Mata Reserva",
+            "bodega": "AGUSTÍ TORELLÓ D.O. CAVA",
+            "precio": 26.75
+        },
+        {
+            "nombre": "Argent Brut",
+            "bodega": "GRAMONA",
+            "precio": 65.00
+        },
+        {
+            "nombre": "Ars Collecta 456 Brut 2010",
+            "bodega": "CODORNIU D.O. CAVA",
+            "precio": 235.00
+        },
+        {
+            "nombre": "Ars Collecta Jaume de Codorniu Gran Reserva Brut 2013",
+            "bodega": "CODORNIU D.O. CAVA",
+            "precio": 55.50
+        },
+        {
+            "nombre": "Raventós i Blanc De Nit Rosat",
+            "bodega": "RAVENTÓS I BLANC CONCA DEL RIU ANOIA",
+            "precio": 37.50
+        },
+        {
+            "nombre": "Gramona III Lustros Brut Nature Gran Reserva 2012",
+            "bodega": "GRAMONA, CORPINNAT",
+            "precio": 58.00
+        },
+        {
+            "nombre": "Juve Camps Reserva Familia",
+            "bodega": "JUVE CAMPS D.O. CAVA",
+            "precio": 43.50
+        },
+        {
+            "nombre": "Kripta Gran Reserva Brut Nature",
+            "bodega": "AGUSTÍ TORELLÓ D.O. CAVA",
+            "precio": 109.00
+        },
+        {
+            "nombre": "Raventos Blanc de Blancs",
+            "bodega": "RAVENTÓS I BLANC CONCA DEL RIU ANOIA",
+            "precio": 32.50
+        },
+        {
+            "nombre": "Raventós Mas de Serral",
+            "bodega": "RAVENTÓS I BLANC CONCA DEL RIU ANOIA",
+            "precio": 218.00
+        },
+        {
+            "nombre": "Recaredo Terrers Brut Nature",
+            "bodega": "RECAREDO D.O. CAVA",
+            "precio": 54.00
+        },
+        {
+            "nombre": "Textures de Pedra",
+            "bodega": "RAVENTÓS I BLANC CONCA DEL RIU ANOIA",
+            "precio": 57.00
+        }
+    ],
+    "Champange": [
+        {
+            "nombre": "Allart & Fils Brut Reserve",
+            "bodega": "ALLART & FILS",
+            "precio": 59.00
+        },
+        {
+            "nombre": "Bollinger Special Cuveé ",
+            "bodega": "BOLLINGER",
+            "precio": 109.00
+        },
+        {
+            "nombre": "Dom Perignon Vintage 2013",
+            "bodega": "DOM PERIGNON",
+            "precio": 390.00
+        },
+        {
+            "nombre": "Laurent Perrier Cuvée Rose Brut",
+            "bodega": "LAURENT PERRIER",
+            "precio": 146.00
+        },
+        {
+            "nombre": "Louis Roederer Brut Cristal",
+            "bodega": "LOUIS ROEDERER",
+            "precio": 450.00
+        },
+        {
+            "nombre": "Louis Roederer Brut Premier",
+            "bodega": "LOUIS ROEDERER",
+            "precio": 99.00
+        },
+        {
+            "nombre": "Louis Roederer Brut Rosé",
+            "bodega": "LOUIS ROEDERER",
+            "precio": 150.00
+        },
+        {
+            "nombre": "Pol Roger Brut Reserve",
+            "bodega": "POL ROGER",
+            "precio": 89.00
+        },
+        {
+            "nombre": "Pol Roger Winston Churchil 13",
+            "bodega": "POL ROGER",
+            "precio": 390.00
+        },
+        {
+            "nombre": "Ruinart Brut",
+            "bodega": "RUINART",
+            "precio": 98.00
+        },
+        {
+            "nombre": "Ruinart Blanc de Blanc",
+            "bodega": "RUINART",
+            "precio": 160.00
+        },
+        {
+            "nombre": "Taittinger Brut Reserve à Reims",
+            "bodega": "TAITTINGER",
+            "precio": 90.00
+        }
+    ],
+    "Blancos": [
+        {
+            "nombre": "si",
+            "precio": 30.50
+        },
+        {
+            "nombre": "si",
+            "precio": 27.25
+        },
+        {
+            "nombre": "si",
+            "precio": 22.99
+        }
+    ],
+    "Rosados": [
+        {
+            "nombre": "si",
+            "precio": 24.00
+        },
+        {
+            "nombre": "si",
+            "precio": 19.75
+        },
+        {
+            "nombre": "si",
+            "precio": 26.50
+        }
+    ],
+    "Tintos": [
+        {
+            "nombre": "si",
+            "precio": 45.99
+        },
+        {
+            "nombre": "si",
+            "precio": 29.75
+        },
+        {
+            "nombre": "si",
+            "precio": 32.00
+        }
+    ],
+    "Formatos especiales": [
+        {
+            "nombre": "si",
+            "precio": 50.25
+        },
+        {
+            "nombre": "si",
+            "precio": 40.50
+        },
+        {
+            "nombre": "si",
+            "precio": 35.99
+        }
+    ]
+}
