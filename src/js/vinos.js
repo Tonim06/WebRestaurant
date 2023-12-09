@@ -15,7 +15,7 @@ async function obtenerVinos() {
         const vinos_containers = document.querySelectorAll('.vinos_container');
       
         vinosCategoria.forEach(vino => {
-          let htmlVino = generarHtmlProducto(vino.nombre, vino.bodega, vino.precio);
+          let htmlVino = generarHtmlProducto(vino);
           vinos_containers[index].innerHTML += htmlVino;
         });
       });
@@ -32,15 +32,15 @@ function generarTituloCategoria(categoria) {
     return categoriaHTML;
 }
 
-function generarHtmlProducto(nombre, bodega, precio) {
+function generarHtmlProducto(vino) {
     const platoHTML = `
             <div class="w-10/12 p-2 rounded-lg flex justify-between items-center">
                 <div>
-                    <h3 class="mt-4 text-sm text-gray-700 font-bold">${nombre}</h3>
-                    <p class="mt-4 text-sm text-red-700">${bodega}</p>
+                    <h3 class="mt-4 text-sm text-gray-700 font-bold">${vino.nombre}</h3>
+                    <p class="mt-4 text-sm text-red-700">${vino.bodega}</p>
                 </div>
                 <div>
-                    <p class="mt-1 text-lg font-medium text-gray-900">${precio.toFixed(2)}€</p>
+                    <p class="mt-1 text-lg font-medium text-gray-900">${vino.precio.toFixed(2)}€</p>
                 </div>
             </div>`;
 

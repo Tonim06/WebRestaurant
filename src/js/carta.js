@@ -16,7 +16,7 @@ tapas_button.addEventListener('click', async () => {
             const dataTapas = await response.json();
 
             for (const tapa of dataTapas) {
-                let htmlProducto = generarHtmlProducto(tapa.url, tapa.nombre, tapa.precio);
+                let htmlProducto = generarHtmlProducto(tapa);
                 tapas.innerHTML += htmlProducto;
             }
         } catch (error) {
@@ -25,16 +25,18 @@ tapas_button.addEventListener('click', async () => {
     }
 })
 
-function generarHtmlProducto(url, nombre, precio) {
+function generarHtmlProducto(tapa) {
     const platoHTML = `
             <div class="group">
                 <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                    <img src=${url} 
-                                    alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
-                                    class="h-full w-full object-cover object-center group-hover:opacity-75">
+                    <img src=${tapa.url} 
+                        alt="Tall slender porcelain bottle with natural clay textured body and cork stopper."
+                        class="h-full w-full object-cover object-center group-hover:opacity-75">
                 </div>
-                <h3 class="mt-4 text-sm text-gray-700">${nombre}</h3>
-                <p class="mt-1 text-lg font-medium text-gray-900">${precio.toFixed(2)}€</p>
+                <h3 class="mt-4 text-gray-700 font-bold">${tapa.nombre}</h3>
+                <p class="text-sm text-gray-500">(${tapa.ingredientes})<p>
+                <p class="text-sm text-red-700">${tapa.alergenos}<p>
+                <p class="mt-1 text-lg text-gray-900 font-bold">${tapa.precio.toFixed(2)}€</p>
             </div>`;
 
     return platoHTML;

@@ -2,106 +2,148 @@
     {
         "url": "/src/img/tapas/jamon.jpg",
         "nombre": "Jamón ibérico de bellota Juan Manuel D.O. Guijuelo (80g)",
-        "precio": 26.00
+        "precio": 26.00,
+        "ingredientes": "jamon ibérico de bellota.",
+        "alergenos": "Gluten (pan)."
     },
     {
         "url": "/src/img/tapas/cecinaVaca.jpg",
         "nombre": "Cecina de vaca, alcachofas confitadas y añejo de Barros",
-        "precio": 19.50
+        "precio": 19.50,
+        "ingredientes": "Cecina de vaca, alcachofas, queso añejo.",
+        "alergenos": "Lacteos."
     },
     {
         "url": "/src/img/tapas/ostrasRegal.jpg",
         "nombre": "Ostra Regal Special nº2 al natural (u.)",
-        "precio": 4.85
+        "precio": 4.85,
+        "ingredientes": "Ostras.",
+        "alergenos": "Marisco."
     },
     {
         "url": "/src/img/tapas/ostrasGazpacho.jpg",
         "nombre": "Ostra con gazpacho de cerezas y Pedro Ximénez",
-        "precio": 6.00
+        "precio": 6.00,
+        "ingredientes": "Ostras, gazpacho de cereza, vino dulce.",
+        "alergenos": "Gluten, frutos secos, sulfitos."
     },
     {
         "url": "/src/img/tapas/ostrasGambasRojas.jpg",
         "nombre": "Ostra a la brasa con gamba roja al ajillo",
-        "precio": 7.00
+        "precio": 7.00,
+        "ingredientes": "Ostras, gamba roja, ajo y perejil.",
+        "alergenos": "Marisco."
     },
     {
         "url": "/src/img/tapas/sardinasEscabeche.jpg",
         "nombre": "Sardinas marinadas en escabeche de zanahoria y mango",
-        "precio": 18.00
+        "precio": 18.00,
+        "ingredientes": "Sardinas, zanahoria, mango.",
+        "alergenos": "Sin alérgenos comunes."
     },
     {
         "url": "/src/img/tapas/carpaccioGamba.jpg",
         "nombre": "Carpaccio de gambas, emulsión de cabezas, hinojo marino y ajo",
-        "precio": 23.00
+        "precio": 23.00,
+        "ingredientes": "Gambas frescas.",
+        "alergenos": "Marisco."
     },
     {
         "url": "/src/img/tapas/tartarAtun.jpg",
         "nombre": "Tártar Mediterráneo de atún Balfegó",
-        "precio": 24.00
+        "precio": 24.00,
+        "ingredientes": "Atún, tomate, hierbas frescas.",
+        "alergenos": "Sin alérgenos comunes."
     },
     {
         "url": "/src/img/tapas/tartarMostaza.jpg",
         "nombre": "Steak tártar, cremoso de mostaza y mahonés",
-        "precio": 21.00
+        "precio": 21.00,
+        "ingredientes": "Filete de res, mostaza, mayonesa.",
+        "alergenos": "Carne cruda, huevo."
     },
     {
         "url": "/src/img/tapas/ensaladaTomates.jpg",
         "nombre": "Ensalada de tomates con encurtidos caseros, algas y cítricos",
-        "precio": 16.50
+        "precio": 16.50,
+        "ingredientes": "Tomates, pepinillos, algas marinas, naranjas.",
+        "alergenos": "Sulfito."
     },
     {
         "url": "/src/img/tapas/burrataArtesana.jpg",
         "nombre": "Burrata artesana con berenjena glaseada y pesto de tomate",
-        "precio": 21.00
+        "precio": 21.00,
+        "ingredientes": "Queso Burrata, berenjena, tomates, albahaca, frutos secos.",
+        "alergenos": "Lacteo, frutos secos."
     },
     {
         "url": "/src/img/tapas/esparragosVerdes.jpg",
         "nombre": "Espárragos verdes a la brasa con mayonesa de aceitunas y romesco",
-        "precio": 16.50
+        "precio": 16.50,
+        "ingredientes": "Esparragos, mayonesa, aceitunas, salsa romesco.",
+        "alergenos": "Huevo, frutos secos."
     },
     {
         "url": "/src/img/tapas/bravasBodeguilla.jpg",
         "nombre": "Las Bravas de La Bodeguilla",
-        "precio": 15.00
+        "precio": 15.00,
+        "ingredientes": "Patata. salsa tomate, pimentón, guindilla.",
+        "alergenos": "Sin alérgenos comunes."
     },
     {
         "url": "/src/img/tapas/huevoEscalfado.jpg",
         "nombre": "Huevo escalfado con foie y trufa fresca",
-        "precio": 18.00
+        "precio": 18.00,
+        "ingredientes": "Huevos, foie gras de pato, trufa.",
+        "alergenos": "Huevo."
     },
     {
         "url": "/src/img/tapas/croquetasJamon.jpg",
         "nombre": "Croquetas melosas de jamón de Guijuelo (6u.)",
-        "precio": 16.50
+        "precio": 16.50,
+        "ingredientes": "Jamón ibérico, ingredientes de rebozado.",
+        "alergenos": "Gluten, lacteo, huevo."
     },
     {
         "url": "/src/img/tapas/calamaresFritos.jpg",
         "nombre": "Calamares fritos con alioli de pimientos de Padrón",
-        "precio": 21.50
+        "precio": 21.50,
+        "ingredientes": "Calamares, pimientos de padrón, huevos.",
+        "alergenos": "Gluten, huevo."
     },
     {
         "url": "/src/img/tapas/zamburinas.jpg",
         "nombre": "Zamburiñas con picadillo y vinagre de Chardonnay (6u.)",
-        "precio": 19.50
+        "precio": 19.50,
+        "ingredientes": "Zamburiña, picadillo, vinagre.",
+        "alergenos": "Sin alérgenos comunes."
     },
     {
         "url": "/src/img/tapas/fideua.jpg",
         "nombre": "Fideuà de carabinero y alioli de sus corales",
-        "precio": 26.00
+        "precio": 26.00,
+        "ingredientes": "Fideuà, carabinero, tomate, pimiento rojo, cebolla, azafrán.",
+        "alergenos": "Gluten, marisco."
     },
     {
         "url": "/src/img/tapas/pulpoAsado.jpg",
         "nombre": "Pulpo asado con huevo, papada ibérica y patata al ajo",
-        "precio": 26.50
+        "precio": 26.50,
+        "ingredientes": "Pulpo, huevo, panceta ibérica, patata.",
+        "alergenos": "Sin alérgenos comunes."
     },
     {
         "url": "/src/img/tapas/canelon.jpg",
         "nombre": "Canelón de pollo campero, salsa de trompetas y manzana",
-        "precio": 19.00
+        "precio": 19.00,
+        "ingredientes": "Pasta, pollo campero, setas, manzanas, cebolla, nata.",
+        "alergenos": "Gluten, lacteo."
     },
     {
         "url": "/src/img/tapas/plumaIberica.jpg",
         "nombre": "Pluma ibérica a la brasa, puerro ahumado, mostaza y pistachos",
-        "precio": 28.50
+        "precio": 28.50,
+        "ingredientes": "Pluma ibérica, puerro, mostaza, pistachos.",
+        "alergenos": "Frutos secos."
     }
 ]
