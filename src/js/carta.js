@@ -12,7 +12,7 @@ tapas_button.addEventListener('click', async () => {
 
     if (tapas.innerHTML == "") {
         try {
-            const response = await fetch('/src/json/dataTapas.JSON');
+            const response = await fetch('/json/dataTapas.JSON');
             const dataTapas = await response.json();
 
             for (const tapa of dataTapas) {
@@ -39,7 +39,7 @@ pescados_button.addEventListener('click', async () => {
 
     if (pescados.innerHTML == "") {
         try {
-            const response = await fetch('/src/json/dataPescado.JSON');
+            const response = await fetch('/json/dataPescado.JSON');
             const dataPescados = await response.json();
 
             for (const pescado of dataPescados) {

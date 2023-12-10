@@ -3,7 +3,7 @@ const vinos_section = document.querySelector('#vinos_section');
 obtenerVinos();
 
 async function obtenerVinos() {
-    const response = await fetch('/src/json/dataVinos.JSON');
+    const response = await fetch('/json/dataVinos.JSON');
     const dataVinos = await response.json();
 
     const categorias = Object.keys(dataVinos);
