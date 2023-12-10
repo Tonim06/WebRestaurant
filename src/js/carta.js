@@ -67,7 +67,7 @@ carnes_button.addEventListener('click', async () => {
 
     if (carnes.innerHTML == "") {
         try {
-            const response = await fetch('/src/json/dataCarne.JSON');
+            const response = await fetch('./json/dataCarne.JSON');
             const dataCarne = await response.json();
 
             for (const carne of dataCarne) {
