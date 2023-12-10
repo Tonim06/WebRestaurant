@@ -4,10 +4,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurant</title>
+  <title>LaBodeguilla</title>
   <link href="/dist/output.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/3090488b50.js" crossorigin="anonymous"></script>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/laBodeguillaLOGO.png" type="image/x-icon">
   <!-- Favicon para Windows -->
   <link rel="icon" href="./img/laBodeguillaLOGO.png" sizes="32x32" type="image/x-icon">
 
@@ -35,32 +35,13 @@
   <header>
     <nav class="bg-red-950">
       <div class="px-2 sm:px-6 lg:px-8">
-        <div class="relative flex h-16 items-center justify-between">
+        <div class="relative flex h-16 items-center align-center justify-center">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
             <button id="toggleButton" type="button"
               class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu" aria-expanded="false">
-              <span class="absolute -inset-0.5"></span>
-              <span class="sr-only">Open main menu</span>
-              <!--
-                  Icon when menu is closed.
-      
-                  Menu open: "hidden", Menu closed: "block"
-                -->
-              <svg class="block h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-              </svg>
-              <!--
-                  Icon when menu is open.
-      
-                  Menu open: "block", Menu closed: "hidden"
-                -->
-              <svg class="hidden h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-                aria-hidden="true">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
+              <i class="fa-solid fa-bars text-xl"></i>
             </button>
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
@@ -69,7 +50,6 @@
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide"
                   aria-current="page">INICIO</a>
                 <a href="./carta.html"
@@ -84,13 +64,11 @@
             <!-- Profile dropdown -->
             <div class="relative ml-3">
               <div>
-                <button type="button"
-                  class="hover:bg-red-800 relative flex rounded-full bg-red-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
-                  id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                  <span class="absolute -inset-1.5"></span>
-                  <span class="sr-only">Open user menu</span>
-                  <a href="#"
-                    class="text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">CONTACT</a>
+                <a href="#horario" class="text-white rounded-md py-2 text-sm font-medium italic tracking-wide">
+                  <button type="button"
+                    class="px-3 hover:bg-red-800 relative flex rounded-full bg-red-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                    id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                    HORARIO</a>
                 </button>
               </div>
             </div>
@@ -101,16 +79,12 @@
       <!-- Mobile menu, show/hide based on menu state. -->
       <div class="sm:hidden hidden" id="mobile-menu">
         <div class="space-y-1 px-2 pb-3 pt-2">
-          <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-          <a href="./index.html"
-            class="hover:bg-red-800 w-full flex justify-center align-center text-white rounded-md px-3 py-2 font-medium"
+          <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide w-full flex justify-center align-center"
             aria-current="page">Inicio</a>
           <a href="./carta.html"
             class="text-gray-300 hover:bg-red-800 hover:text-white block rounded-md px-3 py-2 w-full flex justify-center align-center font-medium">Carta</a>
-          <a href="#"
+          <a href="./vinos.html"
             class="text-gray-300 hover:bg-red-800 hover:text-white block rounded-md px-3 py-2 w-full flex justify-center align-center font-medium">Vinos</a>
-          <a href="#"
-            class="text-gray-300 hover:bg-red-800 hover:text-white block rounded-md px-3 py-2 w-full flex justify-center align-center font-medium">Horario</a>
         </div>
       </div>
     </nav>
@@ -330,7 +304,7 @@
     </section>
 
     <section class="bg-red-900">
-      <div class="container pt-2 mx-auto md:px-6">
+      <div id="horario" class="container pt-2 mx-auto md:px-6">
         <!-- Section: Design Block -->
         <div class="py-10 bg-red-900">
           <div class="block rounded-lg bg-white w-11/12 mx-auto">
@@ -339,8 +313,8 @@
                 <div class="h-[300px] w-full">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.460068318591!2d2.644576375406687!3d39.571780471587864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925aebf17d63%3A0x81fb4ed09b5859e4!2sLa%20Bodeguilla!5e0!3m2!1ses!2ses!4v1702121837609!5m2!1ses!2ses"
-                    class="left-0 top-0 h-full w-full mx-auto rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg" frameborder="0"
-                    allowfullscreen></iframe>
+                    class="left-0 top-0 h-full w-full mx-auto rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
+                    frameborder="0" allowfullscreen></iframe>
                 </div>
               </div>
               <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
@@ -407,13 +381,15 @@
     <section class="bg-gray-800">
       <div class="flex flex-wrap pt-8 max-lg:flex-col justify-center align-center w-full">
         <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 mx-auto">
-          <img src="./img/formFoto.jpg" class="h-[350px] w-[500px] mb-6 rounded-lg mx-auto  max-sm:w-[300px] max-sm:h-[300px]" alt="">
+          <img src="./img/formFoto.jpg"
+            class="h-[350px] w-[500px] mb-6 rounded-lg mx-auto  max-sm:w-[300px] max-sm:h-[300px]" alt="">
         </div>
         <div
           class="mb-4 shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 sm:mx-auto min-[320px]:mx-auto max-[640px]:mx-auto">
           <h2 class="text-center text-white text-3xl font-bold mb-4 italic underline decoration-red-800">RESERVA</h2>
           <form>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]" data-te-input-wrapper-init>
+            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+              data-te-input-wrapper-init>
               <input type="text"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput90" placeholder="Name" />
@@ -422,7 +398,8 @@
                 for="exampleInput90">Name
               </label>
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]" data-te-input-wrapper-init>
+            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+              data-te-input-wrapper-init>
               <input type="email"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput91" placeholder="Email address" />
@@ -431,7 +408,8 @@
                 for="exampleInput91">Email address
               </label>
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]" data-te-input-wrapper-init>
+            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+              data-te-input-wrapper-init>
               <input type="date"
                 class="text-white peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput91" placeholder="Date" />
@@ -440,7 +418,8 @@
                 for="exampleInput91">Choose Date Event
               </label>
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]" data-te-input-wrapper-init>
+            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+              data-te-input-wrapper-init>
               <input type="phone"
                 class="text-white peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
                 id="exampleInput91" placeholder="Your Phone" />

@@ -5,7 +5,6 @@ obtenerVinos();
 async function obtenerVinos() {
     const response = await fetch('/src/json/dataVinos.JSON');
     const dataVinos = await response.json();
-    console.log(dataVinos);
 
     const categorias = Object.keys(dataVinos);
 

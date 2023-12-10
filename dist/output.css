@@ -1925,6 +1925,14 @@ input:checked + .toggle-bg {
   padding-top: 0.37rem;
 }
 
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
