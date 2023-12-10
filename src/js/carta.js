@@ -39,12 +39,40 @@ pescados_button.addEventListener('click', async () => {
 
     if (pescados.innerHTML == "") {
         try {
-            const response = await fetch('/src/json/dataTapas.JSON');
+            const response = await fetch('/src/json/dataPescado.JSON');
             const dataPescados = await response.json();
 
             for (const pescado of dataPescados) {
                 let htmlProducto = generarHtmlProducto(pescado);
                 pescados.innerHTML += htmlProducto;
+            }
+        } catch (error) {
+            console.error('Error fetching or parsing JSON:', error);
+        }
+    }
+})
+
+
+const carnes_button = document.querySelector('#carnes-button');
+const carnes_container = document.querySelector('#carnes-container');
+const carnes = document.querySelector('#carnes');
+
+
+carnes_button.addEventListener('click', async () => {
+    const arrow = carnes_button.querySelector('i');
+    carnes_container.classList.toggle('hidden');
+    carnes_button.classList.toggle('text-white');
+    carnes_button.classList.toggle('bg-red-900');
+    arrow.classList.toggle('fa-arrow-up');
+
+    if (carnes.innerHTML == "") {
+        try {
+            const response = await fetch('/src/json/dataCarne.JSON');
+            const dataCarne = await response.json();
+
+            for (const carne of dataCarne) {
+                let htmlProducto = generarHtmlProducto(carne);
+                carnes.innerHTML += htmlProducto;
             }
         } catch (error) {
             console.error('Error fetching or parsing JSON:', error);
