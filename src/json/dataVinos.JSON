@@ -125,58 +125,185 @@
     ],
     "Blancos": [
         {
-            "nombre": "si",
-            "precio": 30.50
+            "nombre": "Acrollam Blanc 2021",
+            "bodega": "MESQUIDA MORA PORRERES",
+            "precio": 38.50
         },
         {
-            "nombre": "si",
-            "precio": 27.25
+            "nombre": "Ava Blanc 2022",
+            "bodega": "AVA VINS SENCELLES",
+            "precio": 34.50
         },
         {
-            "nombre": "si",
-            "precio": 22.99
+            "nombre": "BCDS Viognier Blanc 2019",
+            "bodega": "CASTELL DEL SUD FELANITX",
+            "precio": 42.00
+        },
+        {
+            "nombre": "Can Coleto Blanc de Negres 2022",
+            "bodega": "CAN COLETO",
+            "precio": 34.50
+        },
+        {
+            "nombre": "D’Amic 2022",
+            "bodega": "CAN RAMIS",
+            "precio": 40.50
+        },
+        {
+            "nombre": "Es Blanc",
+            "bodega": "SON PRIM",
+            "precio": 35.00
+        },
+        {
+            "nombre": "Golós 2022",
+            "bodega": "MIQUEL GELABERT MANACOR",
+            "precio": 34.50
+        },
+        {
+            "nombre": "Miquel Gelabert Chardonnay Roure 2022",
+            "bodega": "MIQUEL GELABERT MANACOR",
+            "precio": 55.00
+        },
+        {
+            "nombre": "Nacra 2022",
+            "bodega": "BODEGAS NACRA",
+            "precio": 40.50
+        },
+        {
+            "nombre": "Neu 2022",
+            "bodega": "ES VERGER ESPORLES",
+            "precio": 38.50
+        },
+        {
+            "nombre": "Nounat 2022",
+            "bodega": "BINIGRAU",
+            "precio": 36.50
         }
     ],
     "Rosados": [
         {
-            "nombre": "si",
-            "precio": 24.00
+            "nombre": "Ava Rosat 2022",
+            "bodega": "AVA VIN- SENCELLES - IGP MALLORCA",
+            "precio": 35.50
         },
         {
-            "nombre": "si",
-            "precio": 19.75
+            "nombre": "Ca Sa Padrina Rosat 2022",
+            "bodega": "CA SA PADRINA - IGP MALLORCA",
+            "precio": 31.50
         },
         {
-            "nombre": "si",
-            "precio": 26.50
+            "nombre": "Son Mayol Rosat 2021",
+            "bodega": "SON MAYOL",
+            "precio": 59.50
+        },
+        {
+            "nombre": "Muga Rosado 2022",
+            "bodega": "MUGA D.O. CA RIOJA",
+            "precio": 32.50
+        },
+        {
+            "nombre": "Roselito 2021",
+            "bodega": "ANTÍDOTO D.O. RIBERA DEL DUERO",
+            "precio": 31.00
+        },
+        {
+            "nombre": "Quinta Clarisa 2022",
+            "bodega": "BELONDRADE Y LURTON V.T. CASTILL A Y LEÓN",
+            "precio": 35.00
+        },
+        {
+            "nombre": "Chateau de Selle 2022",
+            "bodega": "DOMAINES OTT",
+            "precio": 73.50
+        },
+        {
+            "nombre": "Le Bijou de Sophie 2022",
+            "bodega": "BODEGA LEBIOJOU",
+            "precio": 32.50
+        },
+        {
+            "nombre": "Miraval 2022",
+            "bodega": "MIRAVAL",
+            "precio": 45.00
+        },
+        {
+            "nombre": "Whispering Angel 2022",
+            "bodega": "MIRAVAL",
+            "precio": 45.00
         }
     ],
     "Tintos": [
         {
-            "nombre": "si",
-            "precio": 45.99
+            "nombre": "12 Volts 2021",
+            "bodega": "4 KILOS VINÍCOLA, FELANITX",
+            "precio": 39.50
         },
         {
-            "nombre": "si",
-            "precio": 29.75
+            "nombre": "15 Mil Gotes 2019",
+            "bodega": "15 MILGOTES, FELANITX",
+            "precio": 41.50
         },
         {
-            "nombre": "si",
-            "precio": 32.00
+            "nombre": "4 Kilos 2021",
+            "bodega": "4 KILOSVINÍCOLA, FELANITX",
+            "precio": 63.50
+        },
+        {
+            "nombre": "ÀN 2021",
+            "bodega": "ÀNIMANEGRA, FELANITX",
+            "precio": 73.00
+        },
+        {
+            "nombre": "ÀN/2 2021",
+            "bodega": "ÀNIMANEGRA, FELANITX",
+            "precio": 42.50
+        },
+        {
+            "nombre": "Ava Negre 2017",
+            "bodega": "AVA VINS, SENCELLES",
+            "precio": 33.50
+        },
+        {
+            "nombre": "Ava Selecció 2017",
+            "bodega": "AVA VINS, SENCELLES",
+            "precio": 38.50
+        },
+        {
+            "nombre": "Bi Negre Selecció 2018",
+            "bodega": "BINI GRAU, BINIALI",
+            "precio": 39.50
+        },
+        {
+            "nombre": "El Galgo 2022",
+            "bodega": "OLIVER MORAGUES, ALGAIDA",
+            "precio": 37.50
+        },
+        {
+            "nombre": "Fangar Elements 2013",
+            "bodega": "ES FANGAR VINS, FELANITX",
+            "precio": 48.50
+        },
+        {
+            "nombre": "Finca Binigual Verán 2020",
+            "bodega": "FINCA BINIGUAL, BINISSALEM",
+            "precio": 40.50
         }
     ],
     "Formatos especiales": [
         {
-            "nombre": "si",
-            "precio": 50.25
+            "nombre": "Aalto PS 2020 Magnum",
+            "bodega": "AALTO",
+            "precio": 285.00
         },
         {
-            "nombre": "si",
-            "precio": 40.50
+            "nombre": "Alión Magnum 2019",
+            "bodega": "TIEMPOS DE VEGA SICILIA",
+            "precio": 320.00
         },
         {
-            "nombre": "si",
-            "precio": 35.99
+            "nombre": "Allende Crianza 2011 Magnum",
+            "bodega": "ALLENDE D.O. CA RIOJA",
+            "precio": 70.00
         }
     ]
 }

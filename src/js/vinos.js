@@ -36,11 +36,11 @@ function generarHtmlProducto(vino) {
     const platoHTML = `
             <div class="w-10/12 p-2 rounded-lg flex justify-between items-center">
                 <div>
-                    <h3 class="mt-4 text-sm text-gray-700 font-bold">${vino.nombre}</h3>
-                    <p class="mt-4 text-sm text-red-700">${vino.bodega}</p>
+                    <h3 class="text-sm font-bold">${vino.nombre}</h3>
+                    <p class="text-xs text-red-700">${vino.bodega}</p>
                 </div>
                 <div>
-                    <p class="mt-1 text-lg font-medium text-gray-900">${vino.precio.toFixed(2)}€</p>
+                    <p class="mt-1 text-lg text-gray-900 font-bold">${vino.precio.toFixed(2)}€</p>
                 </div>
             </div>`;
 

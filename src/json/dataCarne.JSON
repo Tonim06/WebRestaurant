@@ -1,0 +1,30 @@
+[
+    {
+        "url": "/src/img/tapas/jamon.jpg",
+        "nombre": "Cochinillo mallorquín de “porc negre” al horno con patatas panaderas y brotes verdes",
+        "precio": 35.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/cecinaVaca.jpg",
+        "nombre": "Paletilla de cordero lechal mallorquín asada con miel y romero, patatas panaderas y brotes verdes",
+        "precio": 38.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/ostrasRegal.jpg",
+        "nombre": "Solomillo de vaca seleccionada (250gr ), salsa pimienta, mostaza casera y milhojas de patata",
+        "precio": 36.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/ostrasGazpacho.jpg",
+        "nombre": "Txuleta de vaca seleccionada reposada a la brasa",
+        "precio": 85.00,
+        "ingredientes": "",
+        "alergenos": ""
+    }
+]

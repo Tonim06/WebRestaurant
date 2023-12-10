@@ -1,0 +1,37 @@
+[
+    {
+        "url": "/src/img/tapas/jamon.jpg",
+        "nombre": "Arroz del Senyoret con vieira, gamba roja y calamar",
+        "precio": 28.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/cecinaVaca.jpg",
+        "nombre": "Caldereta de bogavante con arroz Acuarello",
+        "precio": 42.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/ostrasRegal.jpg",
+        "nombre": "Lubina a la brasa con verduras a la mallorquina y trufa fresca",
+        "precio": 38.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/ostrasGazpacho.jpg",
+        "nombre": "Lenguado a la brasa con emulsión de ajos y guindilla, tomate asado y cebolla frita",
+        "precio": 39.00,
+        "ingredientes": "",
+        "alergenos": ""
+    },
+    {
+        "url": "/src/img/tapas/ostrasGambasRojas.jpg",
+        "nombre": "Bogavante a la brasa con patatas fritas y pimientos de Padrón",
+        "precio": 37.00,
+        "ingredientes": "",
+        "alergenos": ""
+    }
+]

@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav class="bg-red-950">
-            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div class="px-2 sm:px-6 lg:px-8">
               <div class="relative flex h-16 items-center justify-between">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
                   <!-- Mobile menu button-->
@@ -97,7 +97,7 @@
       <h1 class="text-4xl font-bold tracking-tight text-white sm:text-6xl underline italic decoration-red-800 text-center pt-7">
         CARTA
       </h1>
-        <section class="w-full flex flex-col justify-center items-center pb-12">
+        <section class="w-full min-h-screen flex flex-col items-center pb-12">
             <!-- TAPAS -->
             <div id="tapas-button" class="bg-gray-200 w-10/12 mt-10 p-5 rounded-lg flex justify-between items-center">
                 <h2 class="text-4xl">Tapas</h2>
@@ -115,6 +115,20 @@
             </div>
 
             <!-- ARROCES Y PESCADOS -->
+            <div id="pescados-button" class="bg-gray-200 w-10/12 mt-10 p-5 rounded-lg flex justify-between items-center">
+              <h2 class="text-4xl text-bold">Pescados y Arrozes</h2>
+              <div>
+                  <i class="fa-solid fa-arrow-down"></i>
+              </div>
+          </div>
+
+          <div id="pescados-container" class="bg-white w-4/5 hidden flex justify-center align-center rounded-b-lg">
+              <div class="py-10 px-10 sm:px-6 sm:py-10 lg:max-w-7xl lg:px-8">
+                  <div id="pescados"
+                      class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 
+                      lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"></div>
+              </div>
+          </div>
         </section>
     </main>
     
