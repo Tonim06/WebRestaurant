@@ -25,7 +25,7 @@ function generarTituloCategoria(categoria) {
     const categoriaHTML = `
         <div class="vinos_container bg-gray-200 w-10/12 mt-10 py-10 rounded-lg flex justify-between items-center flex-col">
             <div>
-                <h2 class="text-4xl font-bold">${categoria}</h2>
+                <h2 class="text-4xl font-bold text-center">${categoria}</h2>
             </div>
         </div>`;
 
