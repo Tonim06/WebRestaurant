@@ -1,27 +1,27 @@
 [
     {
-        "url": "/src/img/carnes/cochinillo.jpg",
+        "url": "./img/carnes/cochinillo.jpg",
         "nombre": "Cochinillo mallorquín de “porc negre” al horno con patatas panaderas y brotes verdes",
         "precio": 35.00,
         "ingredientes": "",
         "alergenos": "Sin alérgenos comunes."
     },
     {
-        "url": "/src/img/carnes/paletillaCordero.jpg",
+        "url": "./img/carnes/paletillaCordero.jpg",
         "nombre": "Paletilla de cordero lechal mallorquín asada con miel y romero, patatas panaderas y brotes verdes",
         "precio": 38.00,
         "ingredientes": "",
         "alergenos": "Sin alérgenos comunes."
     },
     {
-        "url": "/src/img/carnes/solomilloVaca.jpg",
+        "url": "./img/carnes/solomilloVaca.jpg",
         "nombre": "Solomillo de vaca seleccionada (250gr ), salsa pimienta, mostaza casera y milhojas de patata",
         "precio": 36.00,
         "ingredientes": "",
         "alergenos": "Sin alérgenos comunes."
     },
     {
-        "url": "/src/img/carnes/txuletaVaca.jpg",
+        "url": "./img/carnes/txuletaVaca.jpg",
         "nombre": "Txuleta de vaca seleccionada reposada a la brasa",
         "precio": 85.00,
         "ingredientes": "",
