@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.6 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -121,10 +121,8 @@ strong {
 }
 
 /*
-1. Use the user's configured `mono` font-family by default.
-2. Use the user's configured `mono` font-feature-settings by default.
-3. Use the user's configured `mono` font-variation-settings by default.
-4. Correct the odd `em` font sizing in all browsers.
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
 */
 
 code,
@@ -133,12 +131,8 @@ samp,
 pre {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
-  font-feature-settings: normal;
-  /* 2 */
-  font-variation-settings: normal;
-  /* 3 */
   font-size: 1em;
-  /* 4 */
+  /* 2 */
 }
 
 /*
@@ -1245,14 +1239,6 @@ input:checked + .toggle-bg {
   margin-top: 1.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
-}
-
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .block {
   display: block;
 }
@@ -1327,11 +1313,6 @@ input:checked + .toggle-bg {
 
 .h-full {
   height: 100%;
-}
-
-.h-max {
-  height: -moz-max-content;
-  height: max-content;
 }
 
 .h-\[300px\] {
@@ -1410,16 +1391,12 @@ input:checked + .toggle-bg {
   width: 100%;
 }
 
-.w-\[300px\] {
-  width: 300px;
+.w-11\/12 {
+  width: 91.666667%;
 }
 
 .w-\[400px\] {
   width: 400px;
-}
-
-.w-11\/12 {
-  width: 91.666667%;
 }
 
 .max-w-2xl {
@@ -1923,14 +1900,6 @@ input:checked + .toggle-bg {
 
 .pt-\[0\.37rem\] {
   padding-top: 0.37rem;
-}
-
-.pl-3 {
-  padding-left: 0.75rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
 }
 
 .text-center {
@@ -2565,10 +2534,6 @@ input:checked + .toggle-bg {
 }
 
 @media not all and (min-width: 1024px) {
-  .max-lg\:hidden {
-    display: none;
-  }
-
   .max-lg\:flex-col {
     flex-direction: column;
   }
@@ -2578,39 +2543,17 @@ input:checked + .toggle-bg {
   }
 }
 
-@media not all and (min-width: 768px) {
-  .max-md\:flex-col {
-    flex-direction: column;
-  }
-}
-
 @media not all and (min-width: 640px) {
   .max-sm\:h-\[300px\] {
     height: 300px;
-  }
-
-  .max-sm\:w-\[250px\] {
-    width: 250px;
   }
 
   .max-sm\:w-\[280px\] {
     width: 280px;
   }
 
-  .max-sm\:w-\[400px\] {
-    width: 400px;
-  }
-
   .max-sm\:w-\[300px\] {
     width: 300px;
-  }
-
-  .max-sm\:w-\[200px\] {
-    width: 200px;
-  }
-
-  .max-sm\:flex-col {
-    flex-direction: column;
   }
 }
 
@@ -2704,10 +2647,6 @@ input:checked + .toggle-bg {
 
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .sm\:flex-col {
-    flex-direction: column;
   }
 
   .sm\:items-stretch {
@@ -2814,10 +2753,6 @@ input:checked + .toggle-bg {
 
   .lg\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:rounded-bl-lg {
