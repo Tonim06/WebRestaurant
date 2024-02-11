@@ -69,7 +69,7 @@
       Correcte
  # 2.4. NAVIGABLE
    # 2.4.7 Focus Visible
-      A l'apartat de 'Carta' no, tot el resta correcte (solucionar)     
+      A l'apartat de 'Carta' no, tot el resta correcte (solucionat)     
  # 1.3 ADAPTABLE
    # 1.3.1 Info and Relationships
       No (Solucionat: posant type button als botons i aria-label perquè sigui més accesible)
