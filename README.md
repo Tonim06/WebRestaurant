@@ -15,7 +15,7 @@
 # CODI GLOBAL
   # 4.1. COMPATIBLE
    # 4.1.1 Parsing (Obsolete and removed)
-      No solucionar
+      No (Solucionat: amb ajuda de validador)
   # 3.1. READABLE
    # 3.1.1 Language of Page
       No (Solucionat: passar 'en'(angles) a 'es' (espanyol))
@@ -33,6 +33,9 @@
   # 2.2. ENOUGH TIME
    # 2.2.1 Timing Adjustable
       No aplica
+  # 2.4. NAVIGABLE
+   # 2.4.3 Focus Order
+      Correcte    
 
  # TECLAT
   # 2.4. NAVIGABLE
@@ -103,10 +106,10 @@
       No (Solucionat: posant autocomplete als inputs)      
   # 3.3. INPUT ASSISTANCE
    # 3.3.1 Error Identification
-      No solucionar
+      No (Solucionat)
   # 1.4 DISTINGUISHABLE
    # 1.4.1 Use of Color
-      No solucionar
+      No (Solucionat)
 
 # MITJANS DE COMUNICACIO
    No aplica
