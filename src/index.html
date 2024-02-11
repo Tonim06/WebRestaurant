@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -38,7 +38,7 @@
         <div class="relative flex h-16 items-center align-center justify-center">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
-            <button id="toggleButton" type="button"
+            <button id="toggleButton" type="button" aria-label="Toggle Button"
               class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu" aria-expanded="false">
               <i class="fa-solid fa-bars text-xl"></i>
@@ -46,7 +46,7 @@
           </div>
           <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
             <div class="flex flex-shrink-0 items-center">
-              <img class="h-8 w-auto" src="./img/laBodeguillaLOGO.png" alt="Your Company">
+              <img class="h-8 w-auto" src="./img/laBodeguillaLOGO.png" alt="laBodeguillaLOGO">
             </div>
             <div class="hidden sm:ml-6 sm:block">
               <div class="flex space-x-4">
@@ -56,6 +56,8 @@
                   class="hover:bg-red-800 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">CARTA</a>
                 <a href="./vinos.html"
                   class="hover:bg-red-800 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">VINOS</a>
+                <a href="#reserva"
+                  class="hover:bg-red-800 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">RESERVA</a>
               </div>
             </div>
           </div>
@@ -65,7 +67,7 @@
             <div class="relative ml-3">
               <div>
                 <a href="#horario" class="text-white rounded-md py-2 text-sm font-medium italic tracking-wide">
-                  <button type="button"
+                  <button type="button" aria-label="horario"
                     class="px-3 hover:bg-red-800 relative flex rounded-full bg-red-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800 font-medium italic"
                     id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                     HORARIO
@@ -94,7 +96,7 @@
   <main>
     <section>
       <div class="relative isolate overflow-hidden py-24 sm:py-32">
-        <img src="./img/fondoIndex.jpg" alt=""
+        <img src="./img/fondoIndex.jpg" alt="fondoIndex"
           class="absolute inset-0 -z-10 h-full w-full object-cover object-top md:object-top">
         <div class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
           aria-hidden="true">
@@ -189,7 +191,7 @@
           <!-- Tercer bloque -->
           <div class="h-full">
             <div class="">
-              <img src="./img/pescados/bogavante.jpg" alt="Imagen 1" class="">
+              <img src="./img/pescados/bogavante.jpg" alt="Imagen 2" class="">
             </div>
           </div>
           <!-- Cuarto bloque -->
@@ -223,7 +225,7 @@
           <!-- Sexto bloque -->
           <div class="h-full">
             <div class="">
-              <img src="./img/carnes/txuletaVaca.jpg" alt="Imagen 1" class="">
+              <img src="./img/carnes/txuletaVaca.jpg" alt="Imagen 3" class="">
             </div>
           </div>
         </div>
@@ -246,17 +248,17 @@
                 class="absolute top-1/2 left-1/2 text-2xl font-semibold text-white -translate-x-1/2 -translate-y-1/2 sm:text-3xl dark:text-gray-800">First
                 Slide</span>
               <img src="./img/carouselVino1.jpg"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="carouselImg1">
             </div>
             <!-- Item 2 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img src=".//img/carouselVino2.jpg"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="carouselImg2">
             </div>
             <!-- Item 3 -->
             <div class="hidden duration-700 ease-in-out" data-carousel-item>
               <img src="./img/carouselVino3.jpg"
-                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="...">
+                class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2" alt="carouselImg3">
             </div>
           </div>
           <!-- Slider indicators -->
@@ -269,7 +271,7 @@
               data-carousel-slide-to="2"></button>
           </div>
           <!-- Slider controls -->
-          <button type="button"
+          <button type="button" aria-label="Previous"
             class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
             data-carousel-prev>
             <span
@@ -281,7 +283,7 @@
               <span class="hidden">Previous</span>
             </span>
           </button>
-          <button type="button"
+          <button type="button" aria-label="Next"
             class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
             data-carousel-next>
             <span
@@ -297,7 +299,7 @@
       </div>
 
       <div class="flex items-center justify-center">
-        <button type="button" class="p-2 border border-gray-300 mt-4  rounded-lg bg-red-900">
+        <button type="button" aria-label="Vinos" class="p-2 border border-gray-300 mt-4  rounded-lg bg-red-900">
           <a class="font-bold text-white" href="./vinos.html">VINOS</a>
         </button>
       </div>
@@ -312,7 +314,7 @@
             <div class="flex flex-wrap items-center">
               <div class="block w-full shrink-0 grow-0 basis-auto lg:flex lg:w-6/12 xl:w-4/12">
                 <div class="h-[300px] w-full">
-                  <iframe
+                  <iframe title="mapaLaBodeguilla"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.460068318591!2d2.644576375406687!3d39.571780471587864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925aebf17d63%3A0x81fb4ed09b5859e4!2sLa%20Bodeguilla!5e0!3m2!1ses!2ses!4v1702121837609!5m2!1ses!2ses"
                     class="left-0 top-0 h-full w-full mx-auto rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
                     frameborder="0" allowfullscreen></iframe>
@@ -383,54 +385,48 @@
       <div class="flex flex-wrap pt-8 max-lg:flex-col justify-center align-center w-full">
         <div class="mb-10 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 mx-auto">
           <img src="./img/formFoto.jpg"
-            class="h-[350px] w-[500px] mb-6 rounded-lg mx-auto  max-sm:w-[300px] max-sm:h-[300px]" alt="">
+            class="h-[350px] w-[500px] mb-6 rounded-lg mx-auto  max-sm:w-[300px] max-sm:h-[300px]" alt="formFoto">
         </div>
-        <div
+        <div id="reserva"
           class="mb-4 shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 sm:mx-auto min-[320px]:mx-auto max-[640px]:mx-auto">
           <h2 class="text-center text-white text-3xl font-bold mb-4 italic underline decoration-red-800">RESERVA</h2>
           <form>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+            <div
+              class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
-              <input type="text"
-                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput90" placeholder="Name" />
-              <label
-                class="bg-gray-800 pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                for="exampleInput90">Name
-              </label>
+              <input type="text" autocomplete="name"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
+                id="nameForm" placeholder="Name" />
+
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+            <div
+              class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
-              <input type="email"
-                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput91" placeholder="Email address" />
-              <label
-                class="bg-gray-800 pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                for="exampleInput91">Email address
-              </label>
+              <input type="email" autocomplete="email"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
+                id="emailForm" placeholder="Email address" />
+
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+            <div
+              class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
-              <input type="date"
-                class="text-white peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput91" placeholder="Date" />
-              <label
-                class="bg-gray-800 pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                for="exampleInput91">Choose Date Event
-              </label>
+              <input type="date" autocomplete="on"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
+                id="dateForm" placeholder="Date" />
+              
             </div>
-            <div class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px]"
+
+            <div
+              class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
-              <input type="phone"
-                class="text-white peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:peer-focus:text-primary [&:not([data-te-input-placeholder-active])]:placeholder:opacity-0"
-                id="exampleInput91" placeholder="Your Phone" />
-              <label
-                class="bg-gray-800 pointer-events-none absolute top-0 left-3 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[te-input-state-active]:-translate-y-[0.9rem] peer-data-[te-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-200 dark:peer-focus:text-primary"
-                for="exampleInput91">Your phone
-              </label>
+              <input type="tel" autocomplete="mobile"
+                class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
+                id="phoneForm" placeholder="Your Phone" />
+              
             </div>
+
             <div class="flex justify-center items-center">
-              <button type="button" data-te-ripple-init data-te-ripple-color="light"
+              <button type="button" aria-label="Send" data-te-ripple-init data-te-ripple-color="light"
                 class="mb-6 w-[200px] rounded bg-red-900 px-6 pt-2.5 pb-2 text-xs font-medium leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-red-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
                 SEND
               </button>
@@ -443,19 +439,20 @@
   </main>
 
   <footer class="w-full flex justify-center items-center bg-gray-900 text-white dark:bg-neutral-600">
-    <div class="container flex items-center justify-between align-center px-10">
+    <div class="container flex items-center  justify-between align-center px-10">
       <div class="bg-gray-900 p-4 text-center text-white dark:bg-neutral-700 dark:text-neutral-200">
         © 2023 La Bodeguilla
       </div>
       <div class="flex">
-        <a href="https://m.facebook.com/p/La-Bodeguilla-100089302706133/" target="_blank"
-          class=" text-white dark:text-neutral-200">
+        <a href="https://m.facebook.com/p/La-Bodeguilla-100089302706133/"
+          class=" text-white dark:text-neutral-200 flex flex-col items-center">Facebook
           <i class="fa-brands fa-facebook-f"></i>
         </a>
-        <a href="https://www.la-bodeguilla.com/" target="_blank" class=" px-3 dark:text-neutral-200">
+        <a href="https://www.la-bodeguilla.com/" class=" px-3 dark:text-neutral-200 flex flex-col items-center">Google
           <i class="fa-brands fa-google"></i>
         </a>
-        <a href="https://www.instagram.com/labodeguilla1986/" target="_blank" class="text-white dark:text-neutral-200">
+        <a href="https://www.instagram.com/labodeguilla1986/"
+          class="text-white dark:text-neutral-200 flex flex-col items-center"> Instagram
           <i class="fa-brands fa-instagram"></i>
         </a>
       </div>

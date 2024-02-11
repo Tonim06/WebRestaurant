@@ -38,7 +38,7 @@
         <div class="relative flex h-16 items-center align-center justify-center">
           <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
             <!-- Mobile menu button-->
-            <button id="toggleButton" type="button"
+            <button id="toggleButton" type="button" aria-label="Toggle Button"
               class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu" aria-expanded="false">
               <i class="fa-solid fa-bars text-xl"></i>
@@ -52,9 +52,9 @@
               <div class="flex space-x-4">
                 <a href="./index.html"
                   class="hover:bg-red-800 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">INICIO</a>
-                  <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide"
+                <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide"
                   aria-current="page">CARTA</a>
-                  <a href="./vinos.html"
+                <a href="./vinos.html"
                   class="hover:bg-red-800 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide">VINOS</a>
               </div>
             </div>
@@ -66,11 +66,12 @@
               <div>
                 <a href="./index.html#horario"
                   class="text-white rounded-md py-2 text-sm font-medium italic tracking-wide">
-                  <button type="button"
-                    class="px-3 hover:bg-red-800 relative flex rounded-full bg-red-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+                  <button type="button" aria-label="horario"
+                    class="italic px-3 hover:bg-red-800 relative flex rounded-full bg-red-700 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                     id="user-menu-button" aria-expanded="false" aria-haspopup="true">
-                    HORARIO</a>
-                </button>
+                    HORARIO
+                  </button>
+                </a>
               </div>
             </div>
           </div>
@@ -82,9 +83,9 @@
         <div class="space-y-1 px-2 pb-3 pt-2">
           <a href="./index.html"
             class="text-gray-300 hover:bg-red-800 hover:text-white block rounded-md px-3 py-2 w-full flex justify-center align-center font-medium">Inicio</a>
-            <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide w-full flex justify-center align-center"
+          <a class="bg-red-900 text-white rounded-md px-3 py-2 text-sm font-medium italic tracking-wide w-full flex justify-center align-center"
             aria-current="page">Carta</a>
-            <a href="./vinos.html"
+          <a href="./vinos.html"
             class="text-gray-300 hover:bg-red-800 hover:text-white block rounded-md px-3 py-2 w-full flex justify-center align-center font-medium">Vinos</a>
         </div>
       </div>
