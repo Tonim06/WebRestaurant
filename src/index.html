@@ -316,7 +316,7 @@
                   <iframe title="mapaLaBodeguilla"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3075.460068318591!2d2.644576375406687!3d39.571780471587864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297925aebf17d63%3A0x81fb4ed09b5859e4!2sLa%20Bodeguilla!5e0!3m2!1ses!2ses!4v1702121837609!5m2!1ses!2ses"
                     class="left-0 top-0 h-full w-full mx-auto rounded-t-lg lg:rounded-tr-none lg:rounded-bl-lg"
-                    frameborder="0" allowfullscreen></iframe>
+                    allowfullscreen></iframe>
                 </div>
               </div>
               <div class="w-full shrink-0 grow-0 basis-auto lg:w-6/12 xl:w-8/12">
@@ -394,21 +394,25 @@
             <div
               class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
+              <label class="ml-3 font-bold" for="nameForm">Name:</label>
               <input type="text" autocomplete="name"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
-                id="nameForm" placeholder="Name">
-
+                id="nameForm" placeholder="name">
             </div>
+
             <div
               class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
+              <label class="ml-3 font-bold" for="emailForm">Email address:</label>
               <input type="email" autocomplete="email"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
-                id="emailForm" placeholder="Email address">
+                id="emailForm" placeholder="email">
             </div>
+
             <div
               class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
+              <label class="ml-3 font-bold" for="dateForm">Date:</label>
               <input type="date" autocomplete="on"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
                 id="dateForm">
@@ -417,19 +421,18 @@
             <div
               class="relative mx-auto mb-6 border border-gray-300 rounded-lg w-[400px] max-sm:w-[280px] bg-white dark:bg-gray-800"
               data-te-input-wrapper-init>
+              <label class="ml-3 font-bold" for="phoneForm">Your Phone:</label>
               <input type="tel" autocomplete="mobile"
                 class="peer block min-h-[auto] w-full rounded border-0 bg-transparent py-[0.32rem] px-3 leading-[1.6] outline-none transition-all duration-200 ease-linear placeholder-gray-500 focus:placeholder-opacity-100 peer-focus:text-primary dark:text-white dark:placeholder-gray-400 dark:focus:placeholder-gray-300 dark:focus:text-gray-100 dark:focus:placeholder-opacity-100 dark:hover:border-gray-500"
-                id="phoneForm" placeholder="Your Phone">
-
+                id="phoneForm" placeholder="phone">
             </div>
 
             <div class="flex justify-center items-center">
-              <button type="button" aria-label="Send" data-te-ripple-init data-te-ripple-color="light"
+              <button id="bSend" type="button" aria-label="Send" data-te-ripple-init data-te-ripple-color="light"
                 class="mb-6 w-[200px] rounded bg-red-900 px-6 pt-2.5 pb-2 text-xs font-medium leading-normal text-white shadow-[0_4px_9px_-4px_#3b71ca] transition duration-150 ease-in-out hover:bg-primary-600 hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:bg-red-600 focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.3),0_4px_18px_0_rgba(59,113,202,0.2)] dark:shadow-[0_4px_9px_-4px_rgba(59,113,202,0.5)] dark:hover:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:focus:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)] dark:active:shadow-[0_8px_9px_-4px_rgba(59,113,202,0.2),0_4px_18px_0_rgba(59,113,202,0.1)]">
-                SEND
+                <a href="#" class="font-bold italic">SEND</a>
               </button>
             </div>
-
           </form>
         </div>
       </div>

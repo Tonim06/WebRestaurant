@@ -4,6 +4,8 @@ const tapas = document.querySelector('#tapas');
 
 
 tapas_button.addEventListener('click', async () => {
+    event.preventDefault();
+    
     const arrow = tapas_button.querySelector('i');
     tapas_container.classList.toggle('hidden');
     tapas_button.classList.toggle('text-white');
@@ -80,6 +82,7 @@ carnes_button.addEventListener('click', async () => {
     }
 })
 
+
 function generarHtmlProducto(plato) {
     const platoHTML = `
             <div class="group">
@@ -96,3 +99,4 @@ function generarHtmlProducto(plato) {
 
     return platoHTML;
 }
+
