@@ -45,3 +45,4 @@ function generarHtmlProducto(vino) {
 
     return platoHTML;
 }
+

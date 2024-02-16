@@ -5,7 +5,6 @@ toggleButton.addEventListener('click', function() {
     mobileMenu.classList.toggle('hidden');
   });
 
-
   document.getElementById('bSend').addEventListener('click', function () {
     var name = document.getElementById('nameForm').value;
     var email = document.getElementById('emailForm').value;
@@ -40,3 +39,6 @@ toggleButton.addEventListener('click', function() {
     alert('Form submitted successfully!');
     // Aquí puedes agregar código para enviar el formulario a través de AJAX o cualquier otro método
   });
+
+
+  
