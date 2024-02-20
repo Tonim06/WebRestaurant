@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build ./src/index.html && cp -r ./src/json/* ./dist"
+    "build": "parcel build ./src/index.html && cp -r ./src/json/* ./dist && cp -r ./src/img/* ./dist"
   },
   "author": "",
   "license": "ISC",
