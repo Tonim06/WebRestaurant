@@ -1,2 +1,4 @@
-/*
+/*.html
+  Cache-Control: max-age=86400
+/assets/*
   Cache-Control: max-age=31536000
