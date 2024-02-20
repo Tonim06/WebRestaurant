@@ -1,7 +1,10 @@
+import archivoJson3 from '../json/dataTapas.JSON';
+import archivoJson from '../json/dataPescado.JSON';
+import archivoJson2 from '../json/dataCarne.JSON';
+
 const tapas_button = document.querySelector('#tapas-button');
 const tapas_container = document.querySelector('#tapas-container');
 const tapas = document.querySelector('#tapas');
-
 
 tapas_button.addEventListener('click', async () => {
     event.preventDefault();
@@ -14,7 +17,7 @@ tapas_button.addEventListener('click', async () => {
 
     if (tapas.innerHTML == "") {
         try {
-            const response = await fetch('./json/dataTapas.JSON');
+            const response = await fetch(archivoJson3);
             const dataTapas = await response.json();
 
             for (const tapa of dataTapas) {
@@ -41,7 +44,7 @@ pescados_button.addEventListener('click', async () => {
 
     if (pescados.innerHTML == "") {
         try {
-            const response = await fetch('./json/dataPescado.JSON');
+            const response = await fetch(archivoJson);
             const dataPescados = await response.json();
 
             for (const pescado of dataPescados) {
@@ -69,7 +72,7 @@ carnes_button.addEventListener('click', async () => {
 
     if (carnes.innerHTML == "") {
         try {
-            const response = await fetch('./json/dataCarne.JSON');
+            const response = await fetch(archivoJson2);
             const dataCarne = await response.json();
 
             for (const carne of dataCarne) {
